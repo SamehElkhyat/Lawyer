@@ -103,7 +103,6 @@ const MainScreen = () => {
               نوفر لك مجموعة شاملة من الخدمات القانونية الإلكترونية المصممة لتلبية احتياجاتك
             </p>
             
-            {/* Decorative Line */}
             <div className="flex items-center justify-center mb-8">
               <div className="w-24 h-0.5 bg-gradient-to-r from-transparent to-amber-400"></div>
               <div className="mx-4 w-2 h-2 bg-amber-400 rounded-full"></div>
