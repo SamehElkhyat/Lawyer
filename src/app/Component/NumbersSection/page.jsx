@@ -73,7 +73,6 @@ export default function NumbersSection() {
   const [remoteSessions, startRemoteSessions] = useAnimatedCounter(83915);
   const [executionRequests, startExecutionRequests] = useAnimatedCounter(32218);
   const [electronicPowers, startElectronicPowers] = useAnimatedCounter(135629);
-
   useEffect(() => {
     if (isVisible && !hasAnimated) {
       startRemoteSessions();
@@ -82,7 +81,6 @@ export default function NumbersSection() {
       setHasAnimated(true);
     }
   }, [isVisible, hasAnimated, startRemoteSessions, startExecutionRequests, startElectronicPowers]);
-
   return (
     <div className="min-h-screen bg-white">
       <div className="py-16 px-8">
