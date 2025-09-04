@@ -77,7 +77,27 @@ const MainScreen = () => {
   return (
     <div className="min-h-screen bg-white">
       
-    
+      <div className="flex flex-col items-center mt-16 mb-12 select-none">
+        <div className="relative group">
+          <h2
+            className=" inline-block text-4xl md:text-5xl font-black tracking-tight bg-gradient-to-r from-[#c2b280] via-[#f5e9d0] to-[#a88b4a] bg-clip-text text-transparent transition-all duration-300 "
+            style={{
+              letterSpacing: "0.02em",
+              fontFamily: "'Tajawal', 'Cairo', 'Segoe UI', Arial, sans-serif",
+            }}
+          >
+            اختر الخدمه المناسبه لك
+          </h2>
+        </div>
+        <div className="mt-4 flex items-center gap-2">
+          <span className="w-2 h-2 rounded-full bg-[#bfa77a] shadow-lg shadow-[#bfa77a]/30 transition-all duration-300 group-hover:scale-110"></span>
+          <span className="w-32 h-0.5 rounded bg-gradient-to-r from-[#bfa77a] via-[#f5e9d0] to-[#bfa77a] transition-all duration-300 group-hover:w-40"></span>
+          <span className="w-2 h-2 rounded-full bg-[#bfa77a] shadow-lg shadow-[#bfa77a]/30 transition-all duration-300 group-hover:scale-110"></span>
+        </div>
+        <p className="mt-3 text-base md:text-lg text-[#a88b4a] font-medium opacity-80 transition group-hover:opacity-100">
+          خدمات قانونية متكاملة بخبرة واحترافية عالية
+        </p>
+      </div>
       
       {/* Main Content */}
       <div className="p-8 mt-20 ">

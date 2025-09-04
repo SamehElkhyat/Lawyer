@@ -82,7 +82,7 @@ export default function NumbersSection() {
     }
   }, [isVisible, hasAnimated, startRemoteSessions, startExecutionRequests, startElectronicPowers]);
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#ededed]">
       <div className="py-16 px-8">
         <div className="max-w-5xl mx-auto">
           {/* Header Section */}
