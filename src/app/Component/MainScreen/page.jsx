@@ -76,9 +76,9 @@ const MainScreen = () => {
     {
       id: 8,
       title: "خدمات تحت الإنشاء",
-      subtitle: "Under Construction",
+      subtitle: "Translators",
       description:
-        "تحت الإنشاء",
+        "",
       bgGradient: "bg-slate-50",
       textColor: "text-slate-700",
       accentColor: "slate",
